@@ -1,0 +1,24 @@
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%date %level [%thread] %logger{10} [%file:%line] %message%n</pattern>
+    </encoder>
+  </appender>
+  
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>C:\Users\USER\Desktop\Training\Final repo\Framework1\Logs\myproject.log</file>
+    <append>false</append> <!-- Setting this to false will overwrite the file at startup -->
+    <encoder>
+      <pattern>%date %level [%thread] %logger{10} [%file:%line] %message%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="com.demoblaze" level="debug">
+    <appender-ref ref="FILE" />
+    <appender-ref ref="STDOUT" />
+  </logger>
+
+  <root level="error">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>
