@@ -6,8 +6,8 @@
       <class name="com.demoblaze.TestCases.LoginPageTest">
         <methods>
           <include name="afterSuite"/>
-          <include name="tearDown"/>
           <include name="loadConfig"/>
+          <include name="tearDown"/>
           <include name="setup"/>
           <include name="loginTest"/>
         </methods>

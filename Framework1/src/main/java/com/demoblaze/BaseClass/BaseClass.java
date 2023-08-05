@@ -33,7 +33,7 @@ public class BaseClass  {
             context.reset();
             JoranConfigurator configurator = new JoranConfigurator();
             configurator.setContext(context);
-            configurator.doConfigure("C:\\Users\\bigaf\\eclipse-workspace\\NewPOMFramework\\TestAutomationFrameworks\\Framework1\\logback.xml");
+            configurator.doConfigure("C:\\Users\\USER\\Desktop\\Training\\Final repo\\Framework1\\logback.xml");
         } catch (Exception e) {
             e.printStackTrace();
         }

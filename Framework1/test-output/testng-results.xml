@@ -2,24 +2,6 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-07-31T18:46:40 WAT" name="Suite" finished-at="2023-07-31T18:46:59 WAT" duration-ms="18996">
-    <groups>
-      <group name="Sanity">
-        <method signature="SignupPageTest.signUpTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" name="signUpTest" class="com.demoblaze.TestCases.SignupPageTest"/>
-      </group> <!-- Sanity -->
-      <group name="Smoke">
-        <method signature="SignupPageTest.signUpTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" name="signUpTest" class="com.demoblaze.TestCases.SignupPageTest"/>
-      </group> <!-- Smoke -->
-    </groups>
-    <test started-at="2023-07-31T18:46:40 WAT" name="Test1" finished-at="2023-07-31T18:46:59 WAT" duration-ms="18996">
-      <class name="com.demoblaze.TestCases.SignupPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:40 WAT" name="loadConfig" finished-at="2023-07-31T18:46:40 WAT" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:41 WAT" name="setup" finished-at="2023-07-31T18:46:47 WAT" duration-ms="6541" status="PASS">
-=======
   <suite started-at="2023-08-05T18:04:24 WAT" name="Suite" finished-at="2023-08-05T18:04:48 WAT" duration-ms="24758">
     <groups>
     </groups>
@@ -30,7 +12,6 @@
           </reporter-output>
         </test-method> <!-- loadConfig -->
         <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@55493582]" started-at="2023-08-05T18:04:24 WAT" name="setup" finished-at="2023-08-05T18:04:40 WAT" duration-ms="16487" status="PASS">
->>>>>>> 9d346205b6f87677d470fe68d7dbf5631e4391a3
           <params>
             <param index="0">
               <value>
@@ -41,64 +22,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-<<<<<<< HEAD
-        <test-method signature="signUpTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:47 WAT" name="signUpTest" data-provider="regDetails" finished-at="2023-07-31T18:46:49 WAT" duration-ms="1649" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testdata55]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin95]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:49 WAT" name="tearDown" finished-at="2023-07-31T18:46:49 WAT" duration-ms="291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:49 WAT" name="setup" finished-at="2023-07-31T18:46:57 WAT" duration-ms="7565" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="signUpTest(java.lang.String,java.lang.String)[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:57 WAT" name="signUpTest" data-provider="regDetails" finished-at="2023-07-31T18:46:58 WAT" duration-ms="1538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testdata56]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin96]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:58 WAT" name="tearDown" finished-at="2023-07-31T18:46:59 WAT" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:59 WAT" name="afterSuite" finished-at="2023-07-31T18:46:59 WAT" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@3e0e1046]" started-at="2023-07-31T18:46:59 WAT" name="afterSuite" finished-at="2023-07-31T18:46:59 WAT" duration-ms="75" status="PASS">
-=======
         <test-method signature="signUpTest()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@55493582]" started-at="2023-08-05T18:04:40 WAT" name="signUpTest" finished-at="2023-08-05T18:04:46 WAT" duration-ms="6029" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -112,7 +35,6 @@
           </reporter-output>
         </test-method> <!-- afterSuite -->
         <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demoblaze.TestCases.SignupPageTest@55493582]" started-at="2023-08-05T18:04:49 WAT" name="afterSuite" finished-at="2023-08-05T18:04:49 WAT" duration-ms="146" status="PASS">
->>>>>>> 9d346205b6f87677d470fe68d7dbf5631e4391a3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
