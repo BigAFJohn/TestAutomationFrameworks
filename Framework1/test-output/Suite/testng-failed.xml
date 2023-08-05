@@ -12,7 +12,7 @@
           <include name="afterSuite"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="signUpTest" invocation-numbers="0 1"/>
+          <include name="signUpTest" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.demoblaze.TestCases.SignupPageTest -->

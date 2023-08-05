@@ -8,6 +8,7 @@ import com.demoblaze.ActionClass.Action;
 import com.demoblaze.BaseClass.BaseClass;
 
 public class SignupPage extends BaseClass {
+	
 
 	Action action = new Action() ;
 	
@@ -30,6 +31,7 @@ public class SignupPage extends BaseClass {
 	}
 	
 	public void signUp (String regUsername, String regPswd) {
+		
 		action.implicitWait(getDriver(), 20);
 		
 		action.type(regName, regUsername);
@@ -44,5 +46,7 @@ public class SignupPage extends BaseClass {
 		
 		
 	}
+
+	
 
 }
