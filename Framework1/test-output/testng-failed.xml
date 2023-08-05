@@ -12,6 +12,10 @@
           <include name="afterSuite"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
+<<<<<<< HEAD
+=======
+          <include name="signUpTest" invocation-numbers="0"/>
+>>>>>>> 9d346205b6f87677d470fe68d7dbf5631e4391a3
           <include name="setup"/>
           <include name="loginTest" invocation-numbers="0"/>
         </methods>
