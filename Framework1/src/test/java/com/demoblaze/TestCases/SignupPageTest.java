@@ -30,5 +30,7 @@ public class SignupPageTest extends BaseClass {
         Assert.assertEquals(alertText, "Sign up successful.");
 
         LogClass.endTestCase("End test case");
+        //End test
+        //End test
     }
 }
