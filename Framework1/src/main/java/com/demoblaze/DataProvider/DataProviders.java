@@ -10,7 +10,7 @@ import com.demoblaze.Utilities.NewExcelLibrary;
 public class DataProviders {
 
     // Initialize the NewExcelLibrary with path to your Excel file
-    NewExcelLibrary obj = new NewExcelLibrary("C:\\Users\\USER\\Desktop\\Training\\Final repo\\Framework1\\src\\resource\\java\\testData\\testdata.xlsx");
+    NewExcelLibrary obj = new NewExcelLibrary("C:\\Users\\bigaf\\eclipse-workspace\\NewPOMFramework\\TestAutomationFrameworks\\Framework1\\src\\resource\\java\\testData\\testData.xlsx");
 
     @DataProvider(name = "credentials")
     public Object[][] getCredentials() {

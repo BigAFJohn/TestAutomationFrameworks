@@ -7,15 +7,15 @@
   <test thread-count="5" name="Test1(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.demoblaze.TestCases.SignupPageTest">
+      <class name="com.demoblaze.TestCases.LoginPageTest">
         <methods>
           <include name="afterSuite"/>
           <include name="tearDown"/>
           <include name="loadConfig"/>
-          <include name="signUpTest" invocation-numbers="0 1"/>
           <include name="setup"/>
+          <include name="loginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.demoblaze.TestCases.SignupPageTest -->
+      </class> <!-- com.demoblaze.TestCases.LoginPageTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
