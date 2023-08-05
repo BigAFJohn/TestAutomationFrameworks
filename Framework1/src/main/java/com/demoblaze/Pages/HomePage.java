@@ -13,6 +13,7 @@ import com.demoblaze.BaseClass.BaseClass;
 
 public class HomePage extends BaseClass {
 	
+	
 	Action action = new Action() ;
 	
 	@FindBy(css = "#login2")
@@ -50,18 +51,18 @@ public class HomePage extends BaseClass {
 		return new SignupPage();
 	}
 	public SignupPage signUp (String regUsername, String regPswd) {
-		action.implicitWait(getDriver(), 20);
+		action.explicitWait(getDriver(), regName, 30);
 		
 		action.type(regName, regUsername);
 		
-		action.implicitWait(getDriver(), 20);
+		action.explicitWait(getDriver(), regPassword, 30);
 		
 		action.type(regPassword, regPswd);
 		
-		action.implicitWait(getDriver(), 20);
+		action.explicitWait(getDriver(), signUpBtn, 30);
 		
 		action.click(getDriver(), signUpBtn);	
-		action.implicitWait(getDriver(), 20);
+		
 		return new SignupPage();
 	}
 	public String getAlertText() {
