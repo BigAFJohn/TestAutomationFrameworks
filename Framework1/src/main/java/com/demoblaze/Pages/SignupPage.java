@@ -12,7 +12,7 @@ public class SignupPage extends BaseClass {
 
 	Action action = new Action() ;
 	
-	@FindBy(xpath = "//input[@id='sign-username']")
+	@FindBy(xpath = "//input[@id='sign-username12']")
 	private WebElement regName;
 	
 	@FindBy(xpath = "//input[@id='sign-password']")
